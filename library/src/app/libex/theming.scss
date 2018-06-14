@@ -1,0 +1,12 @@
+@mixin hello($theme) {
+  $hello-background: map-get($theme, 'hello-background');
+  .libex-hello {
+    background: $hello-background;
+  }
+}
+
+
+@mixin apply-theme($theme) {
+  @include hello($theme);
+}
+
