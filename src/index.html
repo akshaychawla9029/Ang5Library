@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>McWidgetProject</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+     <div class="row">
+      <div class="col-sm-6">
+        <mc-signup
+        useConsent="true"
+        callConsentAPIOnSubmit="true"
+        ></mc-signup>
+      </div>
+      <div class="col-sm-6">
+        <mc-consent
+          buttonIdForAPICall="outsideBtnId"
+          callAPI="true"
+		      widgetclasses="div.disclaimer"
+		      widgetstyles="p.{color:red;font-size:14px}  h1#masterstyle.{color:yellow;background:red} h1.{font-size:13px}"
+		      widgetstyle='{line-height: 1.8;color: #777;margin-bottom: 2rem}'></mc-consent>
+        <button id="outsideBtnId">Click Me</button>
+      </div>
+    </div>
+</body>
+</html>

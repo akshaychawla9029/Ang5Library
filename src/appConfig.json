@@ -1,0 +1,18 @@
+{
+    "signup": {
+        "useConsent": "1"
+    },
+    "lang":{
+        "value": "fr",
+        "country": "US",
+        "locale": "en-US"
+    },
+    "consent":{
+        "api":{
+            "serviceCode": "pc",
+            "serviceFunctionCode": "pc-reg",
+            "locale": "en-US",
+            "url": "http://10.44.32.49:8088/WidgetDemo/consent/1.0.0/consentlanguage/"
+        }
+    }
+}
